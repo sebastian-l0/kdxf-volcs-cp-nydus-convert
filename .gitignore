@@ -1,0 +1,27 @@
+# Build outputs
+build/
+dist/
+bin/
+/nydus-convert
+
+# Go test and coverage artifacts
+*.test
+*.out
+coverage.*
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+tmp/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
